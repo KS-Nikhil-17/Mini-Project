@@ -11,7 +11,7 @@ from pyspark.sql.functions import *
 #     .getOrCreate()
 
 spark = SparkSession.builder \
-    .appName("Orders-Customers-Data-Analysis") \
+    .appName("Orders-Customers-Data-Analysis_1") \
     .config("spark.sql.adaptive.enabled","false") \
     .enableHiveSupport() \
     .getOrCreate()
