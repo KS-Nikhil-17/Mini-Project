@@ -9,7 +9,7 @@ from pyspark.sql.functions import *
 #     .config("hive.metastore.uri","<host_name>:<port>") \
 #     .enableHiveSupport() \
 #     .getOrCreate()
-
+print(" Analysis of E-commerce Data")
 spark = SparkSession.builder \
     .appName("Orders-Customers-Data-Analysis_1") \
     .config("spark.sql.adaptive.enabled","false") \
